@@ -1,0 +1,31 @@
+users
+=====
+id name email password language(en, mm)
+
+admins
+=====
+id name email password allowed(yes, no)
+
+categories
+==========
+id name mm_name slug
+
+stories
+=======
+id name mm_name slug description mm_description image admin_id
+
+mail_stories
+============
+id name mm_name slug admin_id
+
+mail_story_story_contain
+========================
+id story_id mail_story_id
+
+story_user_fav
+==========
+id user_id story_id
+
+admin_story_fav
+===========
+id admin_id story_id

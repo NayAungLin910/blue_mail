@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-Poppins;
+    }
+}
+
+@layer components {
+    .sky-button-rounded {
+        @apply bg-sky-500 text-white duration-200 py-2 px-3 focus:outline-none focus:ring focus:ring-sky-300 rounded-full shadow hover:shadow-lg hover:bg-sky-600 active:bg-sky-600;
+    }
+    .sky-button {
+        @apply bg-sky-500 text-white duration-200 py-2 px-3 focus:outline-none focus:ring focus:ring-sky-300 rounded-md shadow hover:shadow-md hover:bg-sky-600 active:bg-sky-600;
+    }
+    .red-button {
+        @apply bg-red-600 text-white duration-200 py-2 px-3 focus:outline-none focus:ring focus:ring-red-400 rounded-md shadow hover:shadow-md hover:bg-red-700 active:bg-red-700;
+    }
+    .orange-button {
+        @apply bg-orange-500 text-white duration-200 py-2 px-3 focus:outline-none focus:ring focus:ring-orange-300 rounded-md shadow hover:shadow-md hover:bg-orange-600 active:bg-orange-600;
+    }
+    .green-button {
+        @apply bg-green-600 text-white duration-200 py-2 px-3 focus:outline-none focus:ring focus:ring-green-400 rounded-md shadow hover:shadow-md hover:bg-green-700 active:bg-green-700;
+    }
+    .plus-button {
+        @apply bg-green-500 text-white duration-200 text-lg py-1 px-3 focus:outline-none focus:ring focus:bg-green-400 rounded-full shadow hover:shadow-md hover:bg-green-600 active:bg-green-600 disabled:hover:bg-green-500 disabled:opacity-70;
+    }
+    .input-content {
+        @apply my-2 py-2 px-4 rounded-xl block w-full h-8 text-black focus:outline-none border focus:ring focus:ring-sky-400 border-sky-400;
+    }
+    .paginator-button {
+        @apply rounded-full w-8 h-8 bg-sky-500 text-white hover:bg-sky-700 shadow-md focus:outline-none focus:ring focus:ring-sky-400;
+    }
+    .input-file {
+        @apply bg-white rounded-xl text-black lg:w-1/2 w-full focus:outline-none file:bg-sky-500 file:border-none file:shadow-lg file:text-white file:w-auto file:mr-2 file:rounded-xl file:px-4 file:h-8 border border-sky-400 focus:ring focus:ring-sky-400;
+    }
+    .filter-options-div {
+        @apply lg:w-1/2 w-[80%] absolute top-[4.3rem] left-[20vw] lg:top-0 lg:left-[40vw] z-20 py-3 px-4 shadow-md bg-slate-50 dark:bg-slate-700 dark:text-white h-[100%];
+    }
+}
