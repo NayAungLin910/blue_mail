@@ -16,7 +16,7 @@ export default defineConfig({
                 'resources/js/mailStoriesView.jsx',
                 'resources/js/navCategorySearch.jsx',
                 'resources/js/storiesFavourite.jsx',
-                'resoruces/js/profile.jsx',
+                'resources/js/profile.jsx',
             ],
             refresh: true,
         }),
