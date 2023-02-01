@@ -1,0 +1,188 @@
+{
+  "resources/js/app.js": {
+    "file": "assets/app.5256d9fa.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "_axios.b95f0d2f.js"
+    ],
+    "css": [
+      "assets/app.54e86dce.css"
+    ]
+  },
+  "resources/js/welcome.jsx": {
+    "file": "assets/welcome.334dc0da.js",
+    "src": "resources/js/welcome.jsx",
+    "isEntry": true,
+    "imports": [
+      "_config.5c3d81e4.js",
+      "_Spinner.d41a2331.js",
+      "_axios.b95f0d2f.js"
+    ]
+  },
+  "resources/js/categories.jsx": {
+    "file": "assets/categories.5c723c42.js",
+    "src": "resources/js/categories.jsx",
+    "isEntry": true,
+    "imports": [
+      "_config.5c3d81e4.js",
+      "_Spinner.d41a2331.js",
+      "_ConfirmBox.8265aa8f.js",
+      "_Paginator.3ee33d62.js",
+      "_ButtonLoading.4ae85373.js",
+      "_axios.b95f0d2f.js"
+    ]
+  },
+  "resources/js/stories.jsx": {
+    "file": "assets/stories.8bf7b96c.js",
+    "src": "resources/js/stories.jsx",
+    "isEntry": true,
+    "imports": [
+      "_config.5c3d81e4.js",
+      "_Spinner.d41a2331.js",
+      "_Paginator.3ee33d62.js",
+      "_ButtonLoading.4ae85373.js",
+      "_react-select-animated.esm.a35da4cb.js",
+      "_ConfirmBox.8265aa8f.js",
+      "_axios.b95f0d2f.js"
+    ]
+  },
+  "resources/js/storiesCreate.jsx": {
+    "file": "assets/storiesCreate.1b155bec.js",
+    "src": "resources/js/storiesCreate.jsx",
+    "isEntry": true,
+    "imports": [
+      "_config.5c3d81e4.js",
+      "_Spinner.d41a2331.js",
+      "_quill.snow.5eddaa50.js",
+      "_react-select-animated.esm.a35da4cb.js",
+      "_ButtonLoading.4ae85373.js",
+      "_axios.b95f0d2f.js"
+    ]
+  },
+  "resources/js/storiesEdit.jsx": {
+    "file": "assets/storiesEdit.f494dfc3.js",
+    "src": "resources/js/storiesEdit.jsx",
+    "isEntry": true,
+    "imports": [
+      "_config.5c3d81e4.js",
+      "_Spinner.d41a2331.js",
+      "_ButtonLoading.4ae85373.js",
+      "_react-select-animated.esm.a35da4cb.js",
+      "_quill.snow.5eddaa50.js",
+      "_axios.b95f0d2f.js"
+    ]
+  },
+  "resources/js/mailStoriesCreate.jsx": {
+    "file": "assets/mailStoriesCreate.7d131b1b.js",
+    "src": "resources/js/mailStoriesCreate.jsx",
+    "isEntry": true,
+    "imports": [
+      "_config.5c3d81e4.js",
+      "_Spinner.d41a2331.js",
+      "_ConfirmBox.8265aa8f.js",
+      "_Paginator.3ee33d62.js",
+      "_ButtonLoading.4ae85373.js",
+      "_react-select-animated.esm.a35da4cb.js",
+      "_axios.b95f0d2f.js"
+    ]
+  },
+  "resources/js/mailStoriesView.jsx": {
+    "file": "assets/mailStoriesView.72e6f5f2.js",
+    "src": "resources/js/mailStoriesView.jsx",
+    "isEntry": true,
+    "imports": [
+      "_config.5c3d81e4.js",
+      "_Spinner.d41a2331.js",
+      "_Paginator.3ee33d62.js",
+      "_axios.b95f0d2f.js"
+    ]
+  },
+  "resources/js/navCategorySearch.jsx": {
+    "file": "assets/navCategorySearch.72457d4f.js",
+    "src": "resources/js/navCategorySearch.jsx",
+    "isEntry": true,
+    "imports": [
+      "_config.5c3d81e4.js",
+      "_ButtonLoading.4ae85373.js",
+      "_axios.b95f0d2f.js"
+    ]
+  },
+  "resources/js/storiesFavourite.jsx": {
+    "file": "assets/storiesFavourite.9893949e.js",
+    "src": "resources/js/storiesFavourite.jsx",
+    "isEntry": true,
+    "imports": [
+      "_config.5c3d81e4.js",
+      "_axios.b95f0d2f.js"
+    ]
+  },
+  "resources/js/profile.jsx": {
+    "file": "assets/profile.b8e48d5d.js",
+    "src": "resources/js/profile.jsx",
+    "isEntry": true,
+    "imports": [
+      "_config.5c3d81e4.js",
+      "_ButtonLoading.4ae85373.js",
+      "_axios.b95f0d2f.js"
+    ]
+  },
+  "_axios.b95f0d2f.js": {
+    "file": "assets/axios.b95f0d2f.js"
+  },
+  "_config.5c3d81e4.js": {
+    "file": "assets/config.5c3d81e4.js",
+    "imports": [
+      "_axios.b95f0d2f.js"
+    ]
+  },
+  "_Spinner.d41a2331.js": {
+    "file": "assets/Spinner.d41a2331.js",
+    "imports": [
+      "_config.5c3d81e4.js"
+    ]
+  },
+  "_ConfirmBox.8265aa8f.js": {
+    "file": "assets/ConfirmBox.8265aa8f.js",
+    "imports": [
+      "_config.5c3d81e4.js",
+      "_ButtonLoading.4ae85373.js"
+    ]
+  },
+  "_Paginator.3ee33d62.js": {
+    "file": "assets/Paginator.3ee33d62.js",
+    "imports": [
+      "_config.5c3d81e4.js"
+    ]
+  },
+  "_ButtonLoading.4ae85373.js": {
+    "file": "assets/ButtonLoading.4ae85373.js",
+    "imports": [
+      "_config.5c3d81e4.js"
+    ]
+  },
+  "_react-select-animated.esm.a35da4cb.js": {
+    "file": "assets/react-select-animated.esm.a35da4cb.js",
+    "imports": [
+      "_config.5c3d81e4.js"
+    ]
+  },
+  "_quill.snow.5eddaa50.js": {
+    "file": "assets/quill.snow.5eddaa50.js",
+    "imports": [
+      "_axios.b95f0d2f.js",
+      "_config.5c3d81e4.js"
+    ],
+    "css": [
+      "assets/quill.bab5066a.css"
+    ]
+  },
+  "quill.css": {
+    "file": "assets/quill.bab5066a.css",
+    "src": "quill.css"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app.54e86dce.css",
+    "src": "resources/js/app.css"
+  }
+}
