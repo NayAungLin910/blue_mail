@@ -1,7 +1,7 @@
 import axios from "axios";
 
-export const baseUrl = "http://127.0.0.1:8000"; // base url of the application
-export const api_url = "http://127.0.0.1:8000/api"; // base api url
+export const baseUrl = "https://bluemails.link"; // base url of the application
+export const api_url = "https://bluemails.link/api"; // base api url
 
 // accept 'application/json' axios
 export const cusaxios = axios.create({
